@@ -228,8 +228,8 @@ Superstore-Sales-Analysis/
 │   └── superstore_analysis.sql
 │
 ├── Dashboard/
-│   ├── Superstore_Sales_Dashboard.pbix
-│   └── Superstore_Sales_Dashboard.pdf
+│   ├── Superstore_Sales_Analysis.pbix
+│   └── Superstore_Sales_Analysis.pdf
 │
 ├── images/
 │   └── dashboard.png
@@ -246,8 +246,8 @@ Superstore-Sales-Analysis/
 1. Clone the repository.
 2. Install the requirements: `pip install pandas matplotlib openpyxl jupyter`
 3. Run the notebooks in order (`01` → `02` → `03`) from the `notebooks/` folder.
-4. In PostgreSQL, run Section 0 of `sql/superstore_analysis.sql` to create the table, import `data/Cleaned/Superstore_Cleaned.csv` into it, then run the queries one by one.
-5. Open `dashboard/Superstore_Sales_Dashboard.pbix` in Power BI Desktop.
+4. In PostgreSQL, run Section 0 of `SQL/superstore_analysis.sql` to create the table, import `data/Cleaned/Superstore_Cleaned.csv` into it, then run the queries one by one.
+5. Open `dashboard/Superstore_Sales_Analysis.pbix` in Power BI Desktop.
 
 ---
 
