@@ -100,7 +100,7 @@ The cleaned dataset was imported into PostgreSQL and **18 business queries** wer
 
 SQL techniques used: `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, aggregate functions, `CASE WHEN`, `HAVING`, `NULLIF`, CTEs, window functions, `RANK()`.
 
-SQL file: `sql/superstore_analysis.sql`
+SQL file: `SQL/superstore_analysis.sql`
 
 ### 4. Business Sales Analysis
 Summary analysis of category, segment, sub-category, and region performance, plus loss-making sub-categories and the top 10 cities by sales.
@@ -124,7 +124,7 @@ An interactive dashboard that presents the final business insights.
 
 **Key Insights panel** with four headline findings.
 
-Power BI file: `dashboard/Superstore_Sales_Dashboard.pbix`
+Power BI file: `Dashboard/Superstore_Sales_Analysis.pbix`
 
 ---
 
@@ -224,10 +224,10 @@ Superstore-Sales-Analysis/
 │   ├── 02_Exploratory_Data_Analysis.ipynb
 │   └── 03_Sales_Analysis.ipynb
 │
-├── sql/
+├── SQL/
 │   └── superstore_analysis.sql
 │
-├── dashboard/
+├── Dashboard/
 │   ├── Superstore_Sales_Dashboard.pbix
 │   └── Superstore_Sales_Dashboard.pdf
 │
